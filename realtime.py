@@ -11,11 +11,11 @@ hands = mp_hands.Hands()
 mp_draw = mp.solutions.drawing_utils
 
 
-model = load_model('models.h5')
+model = load_model('Real-Time-Hand-Guesture-Detection-using-Mediapipe\models.h5')
 
 
 le = LabelEncoder()
-le.classes_ = np.load('classes.npy', allow_pickle=True)
+le.classes_ = np.load('Real-Time-Hand-Guesture-Detection-using-Mediapipe\classes.npy', allow_pickle=True)
 print("Class labels:", le.classes_)  
 
 
